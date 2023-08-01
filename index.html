@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    
+    <meta name="author" content="Janelly Mendoza">
+    <meta name="description" content="Portafolio de desarrollo web de Jane">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Cesarin </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/cora.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <BODY onLoad="alert('Bienvenido a mi Página . Disfrutra este pequeño detallito');" onUnLoad="confirm('Gracias por tu visita, espero que no sea la última');">
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img class="conejito rounded-circle" src="imagenes/conejito.jpg " width="50" alt="conejo">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Momentos juntitos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#razones">Mis razones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Final</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/kittyspiderman.jpg" alt="Foto de nosotros">
+        <h1>Feliz primer año, amor.</h1>
+        <!--<pirmera parte.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+     
+    </section>
+
+    <!-- parte1 -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Mensaje </h2>
+        <p class="seccion-texto">Te quiero decir que te amo mucho Cesario, espero te guste este humilde detalle jeje. Quiero seguir haciendote sentir amado por mucho tiempo más y que tengamos muchas más chocoaventuras juntos. A continuación algunos de mis momentos favoritos contigo.
+          <p>&#128151; &#128151; &#128151; </p> 
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+           <img class="festival rounded-circle" src="imagenes/documental.jpg" style="max-width: 80%; height: auto;"> 
+            <p class="experiencia-titulo">Número 1. </p>
+            <p>Cuando fuimos a ver el documental en el festival del Zanate </p>
+            
+          </div>
+          <!-- mometnos favoritos -->
+          <div class="columna col-12 col-md-4">
+            <img class="barbie rounded-circle" src="imagenes/barbie.jpg" alt="Ida al cine" style="max-width: 80%; height: auto;"> 
+            
+            <p class="experiencia-titulo">Número 2.</p>
+            <p>Cuando fuimos a ver barbie juntos jiji. Estaba emocionada por que fúeramos. </p>
+           
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <img class="tesis rounded-circle" src="imagenes/tesis.jpg" alt="dia de tesis" style="max-width: 80%;" height="auto">
+            <p class="experiencia-titulo">Número 3.</p>
+            <p>La vez que me acompañaste a mi presentación de tesis. Fue muy importante para mí. Gracias &#x2764;&#xFE0F;</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- aqui se termina lo de las cosas que me gustan de él -->
+
+
+    <!-- aqui inician los momentos -->
+   <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Nuestra rolita más personal</h2>
+    <h3 class="seccion-descripcion">Se me ocurrió que vendría bien...</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+        <div class="row">
+            <!-- cancion -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="enalce"> 
+                    <iframe class="link" 
+                            src="https://open.spotify.com/embed/track/3hRV0jL3vUpRrcy398teAU?utm_source=generator"
+                            width="300%" height="150" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonios -->
+    <section id="razones" class="razones seccion-clara">
+      <h2 class="seccion-titulo">Te amo</h2>
+      <h3 class="seccion-descripcion">Estas son algunas de las muchas razones por las que eres una persona tan especial...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/patito.jpg" alt="Foto de patito">
+              <p class="testimonio-texto">Solo quería decirte lo agradecida que estoy por todo tu apoyo. Siempre estás ahí para mí, en los buenos y malos momentos. Tu apoyo significa el mundo para mí y espero poder brindarte lo mismo hoy y siempre, amor.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nos casamos?</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/kirby.jpg" alt="kirby">
+              <p class="testimonio-texto"> Tenemos una conexión única. Tu sentido del humor, tu calma en los momentos difíciles y la forma en que siempre iluminas mi día son solo algunas de las razones por las que te amo..</p>
+              <div class="testimonio-info">
+                <p class="cliente">Unos guamazos?</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/osito.jpg" alt="Foto de osito">
+              <p class="testimonio-texto"> Me enorgullese tener un novio tan dedicado como tu y que siempre busca salir adelante y mejorar. Me siento afortunada de poder compartir mi vida contigo, te admiro mucho.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Un besote en la frente</p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Quiero estar siempre contigo!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Te quiero mucho mi ingeniero mamadote.
+            </div>
+           <img class="fotito" src="imagenes/bf.jpg" alt="Cesarin"  >
+          </div>
+                
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer y frase ) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo rounded-circle" src="imagenes/estrellas.jpg" alt="corazones">
+      <p class="footer-texto text-center">“He is more myself than I am. Whatever our souls are made of, his and mine are the same. If all else perished and he remained, I should still continue to be, and if all else remained, and we were annihilated, the universe would turn to a mighty stranger. He’s always, always in my mind; not as a pleasure to myself, but as my own being.”<br>― Emily Brontë{💗} </p>
+      
+      </div>
+      <div class="derechos-de-autor">Creado por Janelly (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
